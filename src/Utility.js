@@ -10,3 +10,7 @@ function ageInYears(birthdayString) {
 
   return Math.floor(ageInMilliseconds / millisecondsPerYear);
 }
+
+function isOver21(birthdayString){
+  return ageInYears(birthdayString) >= 21;
+}
